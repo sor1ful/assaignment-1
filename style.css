@@ -4,6 +4,10 @@
     padding: 0;
 
 }
+.nav-1{
+    display: flex;
+    
+}
 .ban-container{
     width: 100%;
     height: 500px;
@@ -18,6 +22,7 @@
     text-align: center;
     color:rgb(7, 65, 67);
     margin-top: 30px;
+    text-align: center;
 }
 .ban-container p{
     text-align: center;
@@ -25,11 +30,7 @@
 }
 .bt-contact{
     margin-top: 20px;
-     text-align: center;
-
-
-    
-    
+    text-align: center;  
     
 }
 .bt-contact button{
@@ -40,5 +41,123 @@
     padding: 10px;
     border-radius: 7px;
     font-size: 15px;
+
+}
+
+/* here start 2nd pages css */
+
+
+.second-page{
+    width: 100%;
+    border: 2px solid black;
+    height: fit-content;
+    background-color: rgb(254, 243, 243);
+    margin-top: 50px;
+    
+
+}
+.heading-content h2{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    
+
+}
+.heading-content p{
+    
+    text-align: center;
+    margin-top: 10px;
+    
+
+}
+/*.left-para-1{
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+  
+    
+
+}
+.right-para-1{
+    width: fit-content;
+    height: 200px;
+    border: 2px solid black;
+    
+   
+}*/
+.flex-container-1{
+    display: flex;
+}
+.para-container-left{
+    width: 60%;
+    height: 200px;
+    box-sizing: border-box;
+    
+    border-radius: 8px;
+    margin: 20px 20px;
+    background-color: rgb(246, 242, 242);
+    
+}
+.para-container-right{
+    width: 30%;
+    height: 200px;
+    box-sizing: border-box;
+    
+    margin: 20px 20px;
+    justify-content: right;
+    border-radius: 8px;
+
+
+}
+/*flex container -2 start*/
+.flex-container-2{
+    display: flex;
+
+}
+.para-container-left-2{
+    width: 30%;
+    height: 200px;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 8px;
+    margin: 20px 20px;
+    background-color: rgb(220, 216, 216);
+    display: flex;
+    
+}
+.para-container-right-2{
+    width: 60%;
+    height: 200px;
+    box-sizing: border-box;
+    border: 2px solid red;
+    margin: 20px 20px;
+    display: flex;
+    border-radius: 8px;
+    
+
+}
+
+
+.flex-container-3{
+    display: flex;
+}
+.para-container-left-3{
+    width: 60%;
+    height: 200px;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 8px;
+    margin: 20px 20px;
+    background-color: rgb(220, 216, 216);
+    
+}
+.para-container-right-3{
+    width: 30%;
+    height: 200px;
+    box-sizing: border-box;
+    border: 2px solid red;
+    margin: 20px 20px;
+
+    
 
 }
